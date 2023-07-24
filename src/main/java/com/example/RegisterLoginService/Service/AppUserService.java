@@ -1,8 +1,7 @@
 package com.example.RegisterLoginService.Service;
 
-public class AppUserService {
+import com.example.RegisterLoginService.DTO.AppUserDTO;
 
-    public static String addUser() {
-        return null;
-    }
+public interface AppUserService {
+    String addUser(AppUserDTO appUserDTO);
 }
